@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "Super Supie",
+    "version": "0.0.1",
+    "content_scripts": [{
+      "matches": ["*://supie.co.nz/*"],
+      "js": ["./content.ts"]
+    }]
+  }
